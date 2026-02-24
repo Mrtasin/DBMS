@@ -80,7 +80,7 @@ WHERE LEFT(YEAR(hiredate),2) = RIGHT(sal,2);
 
 ```sql
 SELECT ename FROM employee
-WHERE sal \* 0.10 = YEAR(hiredate);
+WHERE sal * 0.10 = YEAR(hiredate);
 ```
 
 ## 12. Employees who joined before 15th of the month
