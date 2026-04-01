@@ -1,5 +1,24 @@
 # RETRIEVING DATA – (EMPLOYEE + DEPARTMENT)
 
+## Create salgrade Table (IMPORTANT)
+```sql
+CREATE TABLE salgrade (
+    grade INT,
+    losal INT,
+    hisal INT
+);
+```
+
+### Insert values
+```sql
+INSERT INTO salgrade VALUES
+(1,700,1200),
+(2,1201,1400),
+(3,1401,2000),
+(4,2001,3000),
+(5,3001,9999);
+```
+
 ## 1. Display all employees with their department name
 ```sql
 SELECT e.ename, d.dname
